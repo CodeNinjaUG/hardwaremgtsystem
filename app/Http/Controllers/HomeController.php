@@ -50,4 +50,7 @@ class HomeController extends Controller
     public function inbox(){
         return view('inbox');
     }
+    public function filemanager(){
+        return view('filemanager');
+    }
 }
