@@ -47,4 +47,7 @@ class HomeController extends Controller
     public function chat(){
         return view('chat');
     }
+    public function inbox(){
+        return view('inbox');
+    }
 }
