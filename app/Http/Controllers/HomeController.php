@@ -37,5 +37,14 @@ class HomeController extends Controller
     public function profile(){
         return view('profile');
     }
+    public function pointofsale(){
+        return view('pointofsale');
+    }
 
+    public function post(){
+        return view('post');
+    }
+    public function chat(){
+        return view('chat');
+    }
 }

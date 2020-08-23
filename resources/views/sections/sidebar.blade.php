@@ -6,38 +6,38 @@
     <div class="side-nav__devider my-6"></div>
     <ul>
         <li>
-            <a href="index.html" class="side-menu  {{ Request::is('home*') ? 'side-menu--active' : '' }} ">
+            <a href="/home" class="side-menu  {{ Request::is('home*') ? 'side-menu--active' : '' }} ">
                 <div class="side-menu__icon"> <i data-feather="home"></i> </div>
                 <div class="side-menu__title"> Dashboard </div>
             </a>
         </li>
 
         <li>
-            <a href="side-menu-inbox.html" class="side-menu  {{ Request::is('inbox*') ? 'side-menu--active' : '' }} ">
+            <a href="/inbox" class="side-menu  {{ Request::is('inbox*') ? 'side-menu--active' : '' }} ">
                 <div class="side-menu__icon"> <i data-feather="inbox"></i> </div>
                 <div class="side-menu__title"> Inbox </div>
             </a>
         </li>
         <li>
-            <a href="side-menu-file-manager.html" class="side-menu {{ Request::is('file*') ? 'side-menu--active' : '' }} ">
+            <a href="/filemanager" class="side-menu {{ Request::is('filemanager*') ? 'side-menu--active' : '' }} ">
                 <div class="side-menu__icon"> <i data-feather="hard-drive"></i> </div>
                 <div class="side-menu__title"> File Manager </div>
             </a>
         </li>
         <li>
-            <a href="side-menu-point-of-sale.html" class="side-menu {{ Request::is('pointofsale*') ? ' side-menu--active' : '' }} ">
+            <a href="/pointofsale" class="side-menu {{ Request::is('pointofsale*') ? ' side-menu--active' : '' }} ">
                 <div class="side-menu__icon"> <i data-feather="credit-card"></i> </div>
                 <div class="side-menu__title"> Point of Sale </div>
             </a>
         </li>
         <li>
-            <a href="side-menu-chat.html" class="side-menu {{ Request::is('chat*') ? 'side-menu--active' : '' }} ">
+            <a href="/chat" class="side-menu {{ Request::is('chat*') ? 'side-menu--active' : '' }} ">
                 <div class="side-menu__icon"> <i data-feather="message-square"></i> </div>
                 <div class="side-menu__title"> Chat </div>
             </a>
         </li>
         <li>
-            <a href="side-menu-post.html" class="side-menu  {{ Request::is('post*') ? 'side-menu--active' : '' }} ">
+            <a href="/post" class="side-menu  {{ Request::is('post*') ? 'side-menu--active' : '' }} ">
                 <div class="side-menu__icon"> <i data-feather="file-text"></i> </div>
                 <div class="side-menu__title"> Post </div>
             </a>

@@ -23,3 +23,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/crud','HomeController@crud')->name('crud');
 Route::get('/users','HomeController@users')->name('users');
 Route::get('/profile','HomeController@profile')->name('profile');
+Route::get('/pointofsale','HomeController@pointofsale')->name('pointofsale');
+Route::get('/inbox','HomeController@inbox')->name('inbox');
+Route::get('/filemanager','HomeController@filemanager')->name('filemanager');
+Route::get('/post','HomeController@post')->name('post');
+Route::get('/chat','HomeController@chat')->name('chat');
