@@ -25,4 +25,17 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function crud(){
+        return view('crud');
+    }
+
+    public function users(){
+        return view('users');
+    }
+
+    public function profile(){
+        return view('profile');
+    }
+
 }
